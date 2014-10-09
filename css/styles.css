@@ -1,0 +1,1856 @@
+body {
+	background-color: #FFF;
+	background-image: none;
+}
+
+.wrapper, .container {
+	margin-left: 20px;
+	max-width: none;
+	width: auto;
+}
+
+header {
+	height: auto;
+    z-index: 2;
+}
+
+header.fixedTop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#empower-tab {
+    background-color: #fff;
+    position: absolute;
+    right: 56px;
+    z-index: 20;
+}
+
+#logo {
+	padding: 50px 0 10px;
+	height: 60px;
+}
+
+.nav-search {
+    top: 54px;
+	right: 75px;
+}
+
+.students-section #tagline {
+	background-color: #BBD649;
+}
+
+.faculty-section #tagline {
+	background-color: #fcb116;
+}
+
+.research-innovation-section #tagline {
+	background-color: #dde159;
+}
+
+.alumni-and-support-section #tagline {
+	background-color: #7dcacd;
+}
+
+.recognition-section #tagline {
+	background-color: #89a6cc;
+}
+
+#tagline {
+	background-color: #C00;
+	box-shadow: 0;
+	-moz-box-shadow: 0;
+	-webkit-box-shadow: 0;
+	position: relative;
+	width: 100%;
+	z-index: 3;
+}
+
+#tagline .wrapper {
+	line-height: 0.8em;
+}
+
+#tagline img {
+	height: auto;
+	max-height: 120px;
+	width: auto;
+}
+
+#tagline h1 {
+	font-size: 9.8em;
+	letter-spacing: 0;
+	line-height: 0.8em;
+	margin-bottom: 0;
+	padding: 8px 0 11px 0;
+	width: 731px;
+}
+
+#tagline h1 a {
+	color: #FFF;
+	font-family: "HelveticaNeueW01-97Blac",helvetica,arial,sans-serif;
+	padding: 0;
+}
+
+#students #tagline h1 a {
+	color: #636363;
+}
+
+
+#tagline h1 a:hover {
+	color: #e7e7e7;
+	text-decoration: none;
+}
+
+.institutional {
+	background-color: #A8A9AD;
+	bottom: 10px;
+	color: #FFF;
+	float: left;
+	font-family: 'Knockout 50 A', 'Knockout 50 B',helvetica,arial,sans-serif;
+    font-size: 1.7em;
+    margin: 0;
+	padding: 6px;
+    position: absolute;
+	right: 0;
+	text-transform: uppercase;
+	width: auto;
+}
+
+.students-section .institutional {
+	background-color: #C00;
+	color: #FFF;
+}
+
+#nav {
+	background-color: #FFF;
+	border: 0;
+	display: block;
+	float: left;
+	left: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	min-width: 220px;
+	padding: 10px 20px;
+	position: absolute;
+	top: 290px;
+	width: 15%;
+	z-index: 10;
+}
+
+#nav .block {
+	padding: 0;
+}
+
+#nav #searchform-mobile {
+	display: none;
+}
+
+#nav ul {
+	text-align: left;
+}
+
+#nav ul li {
+    margin: 3px 0;
+}
+
+#nav ul a {
+	background-color: transparent;
+	font-family: "HelveticaNeueW01-77BdCn 692722",Helvetica,sans-serif;
+	font-size: 1.2em;
+	padding: 2px 0;
+	text-transform:uppercase;
+}
+
+#nav ul li {
+	display: none; /* initally hide nav items */
+	margin-left: 10px;
+}
+
+#nav ul li.top-level {
+	display: block; /* show top-level items */
+	margin-left: 0;
+}
+
+#nav ul a {
+	font-family: "HelveticaNeueW01-57Cn",Helvetica,sans-serif;
+	font-size: 1.2em;
+	white-space: normal;
+}
+
+#nav ul a.active {
+	color: #C00;
+}
+
+#nav ul li.top-level a {
+	font-family: "HelveticaNeueW01-77BdCn 692722",Helvetica,sans-serif;
+	font-size: 1.3em;
+}
+
+footer .wrapper {
+	margin-left: 75px;
+}
+
+/* FLEXSLIDER OVERRIDES */
+
+#body .slides {
+	height: 100%;
+	position: relative;
+}
+
+sub, sup {
+    font-family: "Knockout 50 A","Knockout 50 B",helvetica,arial,sans-serif !important;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+h1 sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.slides li {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	position: relative;
+}
+
+.flexslider {
+	border: 0;
+	border-radius: 0;
+	margin: 0;
+	position: relative;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.flex-viewport {
+	height: 950px;
+	max-height: 2000px;
+}
+
+.flex-direction-nav {
+	margin-left: 18%;
+    position: absolute;
+    top: 45%;
+	width: 80%;
+}
+
+.flex-direction-nav li {
+	float: left;
+	list-style-type: none;
+}
+
+.flex-direction-nav li:last-child {
+	float: right;
+}
+
+.flex-direction-nav li a {
+    cursor: pointer;
+    display: block;
+    font-size: 1em; /* don't want text to appear */
+	height: 32px;
+	width: 33px;
+}
+
+.flex-direction-nav .flex-prev {
+	background-image: url('../images/left_arrow.png');
+	float: left;
+}
+
+.flex-direction-nav .flex-next {
+	background-image: url('../images/right_arrow.png');
+	float: right;
+	right: 20px;
+}
+
+.flex-direction-nav a:before, .flex-direction-nav a.flex-next:before {
+	content: "";
+}
+
+/* PREVIOUS/NEXT BUTTON ADDITIONS */
+
+.previous-section { background-image: url('../images/left_arrow.png'); width: 33px; height: 32px; position: absolute; top: 686px; left: 18.4%; display: none; opacity: 0.8; z-index: 10; }
+.previous-section:hover { opacity: 1.0; }
+.next-section { background-image: url('../images/right_arrow.png'); width: 33px; height: 32px; position: absolute; top: 686px; right: 81px; display: none; opacity: 0.8; z-index: 10; }
+.next-section:hover { opacity: 1.0; }
+
+/* GENERAL SLIDE STYLES */
+
+.slides .slide-wrapper {
+	display: block;
+	height: 100%;
+/*	margin-left: 18%; */
+	margin-left: 21%; /* make margin-left greater than width of left-navigation to make sure content does not overlap with left arrow */
+	margin-right: 5%; /* make sure content does not overlap with right arrow */
+	min-height: 100%;
+	position: relative;
+}
+
+/* SLIDE STYLES: PARAGRAPH SETTINGS, TEXT, HEADINGS, LISTS, IMAGES */
+
+.slides .slide-wrapper p {
+	padding: 0;
+}
+
+.slides .slide-wrapper b, .slides .slide-wrapper strong, .slides .slide-wrapper i, .slides .slide-wrapper em {
+	font-family: "HelveticaNeueW01-57Cn",Helvetica,sans-serif;
+}
+
+.slides .slide-wrapper p, .slides .slide-wrapper li {
+    color: #333;
+    font-family: "HelveticaNeueW01-57Cn",Helvetica,sans-serif;
+    font-size: 1.6em;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.slides .slide-wrapper .caption {
+    color: #fff;
+    font-family: "HelveticaNeueW01-57Cn",Helvetica,sans-serif;
+    font-size: 1.3em;
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 215px;
+}
+
+.slides .slide-wrapper .smaller-font p, .slides .slide-wrapper .smaller-font li {
+	font-size: 1.4em;
+}
+
+.slides .slide-wrapper .stat {
+	font-family: 'Knockout 50 A', 'Knockout 50 B', helvetica, arial, sans-serif;
+	font-size: 900%;
+    letter-spacing: 0;
+    line-height: 1em;
+    margin-bottom: -20px;
+}
+
+.slides .slide-wrapper .quote {
+	font-family: "HelveticaNeueW01-77BdCn 692722";
+	font-size: 140%;
+	font-weight: bold;
+	padding-left: 60px;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+.slides .slide-wrapper .attribution {
+	padding-left: 60px;
+	text-align: left;
+	line-height: 1.3em;
+}
+
+.slides .slide-wrapper .video {
+	padding-left: 120px;
+	text-align: center;
+}
+
+.students-section .slides .slide-wrapper .overlay-text {
+	background-color: #BBD649;
+}
+
+.faculty-section .slides .slide-wrapper .overlay-text {
+    background-color: #fcb116;
+}
+
+.research-innovation-section .slides .slide-wrapper .overlay-text {
+    background-color: #dde159;
+}
+
+.slides .alumni-and-support-section .slide-wrapper .overlay-text {
+    background-color: #7ccace;
+}
+
+.slides .recognition-section .slide-wrapper .overlay-text {
+    background-color: #89a7cd;
+}
+
+.slides .slide-wrapper .overlay-text {
+	background-color: #c00;
+    margin: -25px auto 0 auto;
+	max-width: 655px;
+    padding: 25px;
+    position: relative;
+    width: 49%;
+    z-index: 3;
+}
+
+.slides .slide-wrapper .overlay-text p {
+	color: #FFF;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-top: 0;
+	font-family: Baskerville,Georgia,Times,serif;
+}
+
+.slides .slide-wrapper .body-text {
+    margin: 0 auto 0 60px;
+    max-width: 955px;
+    position: relative;
+    width: auto;
+    z-index: 3;
+}
+
+.slides .slide-wrapper .overlay-text p:last-child {
+	margin-bottom: 0;
+}
+
+/* WIDTH CLASSES */
+
+.slides .slide-wrapper .width80pct {
+	width: 80%;
+}
+
+.slides .slide-wrapper .width70pct {
+	width: 70%;
+}
+
+.slides .slide-wrapper .width50pct {
+	width: 50%;
+}
+
+.slides .slide-wrapper .width35pct {
+	width: 35%;
+}
+
+.slides .slide-wrapper .center-paragraph {
+	margin: 0 auto 0.5em auto;
+}
+
+.slides .slide-wrapper .float-left {
+	float: left;
+}
+
+.slides .slide-wrapper .align-left {
+	text-align: left;
+}
+
+/* SLIDE STYLES: HEADINGS */
+
+.slides .slide-wrapper .overlay-text h1.page-title {
+	display: none;
+}
+
+.slides .slide-wrapper h1.page-title  {
+    background-color: #c00;
+    color: #fff;
+	font-family: 'Knockout 50 A', 'Knockout 50 B', helvetica, arial, sans-serif;
+	font-size: 160%;
+    margin: 60px 0 20px 120px;
+    padding: 6px 10px;
+	text-align: left;
+	text-transform: uppercase;
+	width: 364px;
+}
+
+.slides .slide-wrapper h1.page-title.section-title, .slides .slide-wrapper h1.section-title {
+	background-color: transparent;
+	color: #fff;
+    font-family: 'Knockout 50 A', 'Knockout 50 B', helvetica, arial, sans-serif;
+    font-size: 1100%;
+	line-height: 0.8em;
+    margin: 115px auto 10px auto;
+    position: relative;
+    text-align: center;
+	text-transform: uppercase;
+	width: auto;
+    z-index: 2;
+}
+
+.slides .slide-wrapper h2 {
+	color: #000;
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+/* SLIDE STYLES: LISTS */
+
+.slides .slide-wrapper .body-text li {
+	height: auto !important;
+	min-height: 0 !important;
+}
+
+.slides .slide-wrapper ul {
+	margin: 0 0 0.5em 38px;
+}
+
+.slides .research-innovation-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/yellow_arrow.png");
+}
+
+.slides .alumni-and-support-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/alumni_arrow.png");
+}
+
+.slides .recognition-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/recognition_arrow.png");
+}
+
+.slides .students-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/students_arrow.png");
+}
+
+.slides .faculty-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/orange_arrow.png");
+}
+
+
+.slides .slide-wrapper li {
+	list-style-image: url('../images/white_arrow.png');
+	margin-bottom: 5px;
+	min-height: 0;
+}
+
+
+/* SLIDE STYLES: IMAGES */
+
+.slides .slide-wrapper img {
+	height: auto;
+	width: auto;
+}
+
+.flexslider .slides .slide-wrapper img {
+	display: inline;
+	margin-top: 25px;
+}
+
+.flexslider .slides .slide-wrapper img.margin-top0 {
+	margin-top: 0;
+}
+
+.slides .slide-wrapper .cutout {
+	position:absolute;
+	bottom: 0;
+	right: 0;
+	width: 90%;
+}
+
+.slides .slide-wrapper img.width50pct {
+	max-height: 450px;
+	width: auto;
+}
+
+.slides .slide-wrapper img.max-width124px {
+	height: auto;
+	max-width: 124px;
+}
+
+.slides .slide-wrapper img.max-width184px {
+	height: auto;
+	max-width: 184px;
+}
+
+.slides .slide-wrapper img.max-width288px {
+	height: auto;
+	max-width: 288px;
+}
+
+/* SLIDE COLUMN WIDTHS */
+
+.slides .col1 {
+	display: block;
+	float: left;
+	margin-bottom: 40px;
+	text-align: center;
+	width: 98%;
+}
+
+.slides .col2 {
+	display: block;
+	float: left;
+	height: 100%;
+	margin-bottom: 40px;
+	padding: 0 1%;
+	position: relative;
+	text-align: center;
+	width: 46%;
+}
+
+.slides .col2left {
+	display: block;
+	float: left;
+	height: 100%;
+	margin-bottom: 40px;
+	padding: 0 1%;
+	position: relative;
+	width: 46%;
+}
+
+
+.slides .col2.middle {
+	float: none;
+	margin: 0 auto 40px auto;
+}
+
+.slides .height-auto {
+	height: auto;
+}
+
+.slides .col2.bottom-right {
+	bottom: 121px;
+	float: right;
+	margin-bottom: 0;
+	right: 50px;
+}
+
+/* SLIDE OTHER STYLES */
+
+.slides .height-auto {
+	height: auto;
+}
+
+.slides .size30 {
+	background-size: 30%;
+}
+.slides .size35 {
+	background-size: 35%;
+}
+
+.slides .size40 {
+	background-size: 40%;
+}
+
+.slides .size45 {
+	background-size: 45%;
+}
+
+.slides .size50 {
+	background-size: 50%;
+}
+
+.slides .size55 {
+	background-size: 55%;
+}
+
+.slides .size60 {
+	background-size: 60%;
+}
+
+.slides .size70 {
+	background-size: 70%;
+}
+
+.slides .size80 {
+	background-size: 80%;
+}
+
+.slides .bg-position-left-center {
+	background-position: left center;
+}
+
+.slides .bg-position-left-bottom {
+	background-position: left bottom;
+}
+
+.slides .bg-position-right-bottom {
+	background-position: right bottom;
+}
+
+.slides .bg-position-right-center {
+	background-position: right center;
+}
+
+.slides .bg-position-right-10pct {
+	background-position: right 10%;
+}
+
+.slides .bg-position-center-bottom {
+	background-position: center bottom;
+}
+
+.slides .bg-position-60pct-20px {
+	background-position: 60% 20px;
+}
+
+.slides .bg-position-30pct-0 {
+	background-position: 30% 0;
+}
+
+.slides .bg-position-80pct-bottom {
+	background-position: 80% bottom;
+}
+
+.slides .bg-position-35pct-center {
+	background-position: 35% center;
+}
+
+.slides .bg-position-80pct-center {
+	background-position: 80% center;
+}
+
+.slides .bg-position-90pct-center {
+	background-position: 90% center;
+}
+
+.slides .bg-position-90pct-bottom {
+	background-position: 90% bottom;
+}
+
+.slides .clear-left {
+	clear: left;
+}
+
+.slides .float-right {
+	float: right;
+}
+
+/* STUDENTS SLIDE STYLES */
+.students-section #tagline {
+	background-color: #BBD649;
+}
+
+.slides .real-world h1.page-title {
+	width: 242px;
+}
+
+.slides .strength-in-our-numbers h1.page-title {
+	width: 288px;
+}
+
+.slides .wider-reach h1.page-title {
+	width: 132px;
+}
+
+.slides .a-campus-thats-all-in h1.page-title {
+	width: 235px;
+}
+
+.slides .results-oriented h1.page-title {
+	width: 185px;
+}
+
+.slides .slide-wrapper.strategy p, .slides .slide-wrapper.strategy li {
+	color: #FFF;
+	font-size: 1.3em;
+}
+
+.slides .slide-wrapper.strategy p {
+	line-height: 1.3em;
+}
+
+#students .slides .slide-wrapper .overlay-text p {
+	color: #333;
+}
+
+#students .slides .slide-wrapper li:nth-child(3) {
+	background-position: 70% 20px;
+    background-size: 60% auto;
+}
+
+/* FACULTY SLIDE STYLES */
+.faculty-section #tagline {
+	background-color: #fcb116;
+}
+
+.slides .strength-in-our-numbers h1.page-title {
+	width: 273px;
+}
+
+.slides .knowledge-explosion h1.page-title {
+	width: 236px;
+}
+
+.slides .thought-leaders h1.page-title {
+	width: 185px;
+}
+
+.slides .faculty-section .slide-wrapper li {
+    list-style-image: url("../images/orange_arrow.png");
+}
+
+/* RESEARCH & INNOVATION STYLES */
+.research-innovation-section #tagline {
+    background-color: #dde159;
+}
+
+.slides .highered-reimagined h1.page-title {
+	width: 228px;
+}
+
+.slides .impact-zone h1.page-title {
+	width: 130px;
+}
+
+/* ALUMNI AND SUPPORT SLIDE STYLES */
+.alumni-and-support-section #tagline {
+    background-color: #7ccace;
+}
+
+.slides .empower-surge h1.page-title {
+	width: 170px;
+}
+
+.slides .a-global-community h1.page-title {
+	width: 218px;
+}
+
+.slides .alumni-and-support-section .slide-wrapper li {
+	margin-left: 58px;
+}
+
+/* RECOGNITION SLIDE STYLES */
+.recognition-section #tagline {
+    background-color: #89a7cd;
+}
+
+.slides .rising-on-merit h1.page-title {
+	width: 165px;
+}
+
+.slides .policy-leadership h1.page-title {
+	width: 195px;
+}
+
+.slides .recognition-section .slide-wrapper li {
+	margin-left: 58px;
+}
+
+/* MEDIA QUERY FOR MOBILE NAV STYLES */
+
+@media only screen and (max-width: 1024px) {
+
+#nav {
+	display: block;
+	margin: 0;
+	padding: 37px 0 20px;
+	top: 0;
+}
+
+#nav #searchform-mobile {
+	display: block;
+}
+
+#nav ul li {
+	margin: 0;
+}
+
+#nav ul li.top-level a {
+	font-family: "HelveticaNeueW01-57Cn",Helvetica,sans-serif;
+	font-size: 1.1em;
+}
+
+#nav ul a {
+	padding: 15px;
+}
+
+.mobile-nav-search {
+	height: 45px;
+}
+
+.mobile-nav-search #s-mobile {
+	margin-top: 10px;
+}
+
+}
+
+ /****************************************************************************************************************************
+* LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 *
+****************************************************************************************************************************/ 
+
+/*      Tablet Layout: 768px.
+        Gutters: 24px.
+        Outer margins: 28px.
+        Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+.mobile-nav-search {
+    height: 36px;
+    margin: -37px 0 10px 50px;
+    width: 220px;
+}
+
+#menu-button {
+	display: inline;
+	float: left;
+	padding-right: 10px;
+	padding-top: 47px;
+}
+
+.nav-btn {
+	background-color: #FFF;
+}
+
+#logo {
+	float: left;
+}
+
+#tagline {
+	clear: left;
+}
+
+.infographic img {
+    width: 80% !important;
+}
+
+#left-navigation {
+    display: none;
+}
+
+.slides .slide-wrapper {
+    display: block;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 5%;
+    min-height: 100%;
+    position: relative;
+}
+
+.slides .slide-wrapper h1.page-title.section-title, .slides .slide-wrapper h1.section-title {
+    font-size: 700% !important;
+    margin: 90px auto 10px;
+}
+
+.slides .slide-wrapper p, .slides .slide-wrapper li {
+    font-size: 1em;
+}
+
+.slides .slide-wrapper .stat {
+    font-size: 600%;
+}
+
+.slides .slide-wrapper .cutout {
+    width: 80%;
+}
+
+.slides .slide-wrapper .quote {
+    font-size: 125%;
+}
+
+.slides .slide-wrapper .overlay-text {
+    margin: -20px auto 0;
+}
+
+.slides .slide-wrapper.strategy p, .slides .slide-wrapper.strategy li {
+    font-size: 0.9em;
+}
+
+.slides .slide-wrapper .smaller-font p, .slides .slide-wrapper .smaller-font li {
+    font-size: 0.8em;
+}
+
+#tagline img {
+    max-height: 90px;
+}
+
+.slides .slide-wrapper h1.page-title {
+    font-size: 140%;
+    margin: 30px 0 20px 120px;
+}
+
+.flex-direction-nav .flex-prev {
+    left: -150px;
+}
+
+.slides .col2.bottom-right {
+    bottom: 90px;
+    margin-bottom: 0;
+    right: 50px;
+    float: right;
+}
+
+.slides .slide-wrapper img {
+    height: auto;
+    width: auto;
+}
+
+.slides .slide-wrapper img.full-width {
+    width: 100%;
+}
+
+.slides .slide-wrapper img.width70pct {
+    width: 70%;
+}
+
+.slides .slide-wrapper img.width50pct {
+    width: 50%;
+}
+
+.slides .slide-wrapper li {
+    margin-bottom: 0;
+    min-height: 0;
+}
+
+.slides .slide-wrapper .video {
+    padding-left: 200px;
+    text-align: center;
+    width: 35%;
+}
+
+.slides .slide-wrapper .attribution {
+    line-height: 1.3em;
+}
+
+.slides .research-innovation-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/yellow_arrow_small.png");
+}
+
+.slides .alumni-and-support-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/alumni_arrow_small.png");
+}
+
+.slides .recognition-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/recognition_arrow_small.png");
+}
+
+.slides .students-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/students_arrow_small.png");
+}
+
+.slides .faculty-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/orange_arrow_small.png");
+}
+
+footer .wrapper {
+    margin-left: 20px;
+}
+
+.info {
+	margin-left: 150px;
+}
+
+footer .contact {
+	margin-left: 343px;
+}
+
+.slides .slide-wrapper .caption {
+    color: #fff;
+    font-family: "HelveticaNeueW01-57Cn",Helvetica,sans-serif;
+    font-size: 1.1em;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 215px;
+}
+
+}
+
+/****************************************************************************************************************************
+* LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 LAYOUT #2 *
+****************************************************************************************************************************/ 
+
+/*      Tablet Layout: 768px.
+        Gutters: 24px.
+        Outer margins: 28px.
+        Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+header .wrapper, header .container {
+	margin-left: 0;
+}
+	
+.mobile-nav-search {
+    height: 36px;
+    margin: -37px 0 14px 50px;
+    width: 260px;
+}
+
+#menu-button {
+	display: inline;
+	float: left;
+	padding-right: 10px;
+	padding-top: 47px;
+}
+
+.nav-btn {
+	background-color: #FFF;
+}
+
+#logo {
+	float: left;
+}
+
+#tagline {
+	clear: left;
+}
+    
+#left-navigation {
+    display: none;
+}
+
+.slides .slide-wrapper {
+    display: block;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 5%;
+    min-height: 100%;
+    position: relative;
+}
+
+.slides .slide-wrapper h1.page-title.section-title, .slides .slide-wrapper h1.section-title {
+    font-size: 600% !important;
+    margin: 90px auto 10px;
+}
+
+.slides .slide-wrapper p, .slides .slide-wrapper li {
+    font-size: 1em;
+}
+
+.slides .slide-wrapper .smaller-font p, .slides .slide-wrapper .smaller-font li {
+    font-size: 0.9em;
+}
+
+.slides .slide-wrapper .stat {
+    font-size: 600%;
+}
+
+.slides .slide-wrapper .cutout {
+    width: 80%;
+}
+
+.slides .slide-wrapper .quote {
+    font-size: 125%;
+    line-height: 1.3em;
+}
+
+.slides .slide-wrapper .overlay-text {
+    margin: -20px auto 0;
+}
+
+.slides .slide-wrapper.strategy p, .slides .slide-wrapper.strategy li {
+    font-size: 0.9em;
+}
+
+#tagline img {
+    max-height: 90px;
+}
+
+.slides .slide-wrapper h1.page-title {
+    font-size: 140%;
+    margin: 30px 0 20px 120px;
+}
+
+.flex-direction-nav .flex-prev {
+    left: -100px;
+}
+
+.slides .col2.bottom-right {
+    bottom: 89px;
+    margin-bottom: 0;
+    right: 50px;
+    float: right;
+}
+
+.slides .slide-wrapper img {
+    height: auto;
+    width: auto;
+}
+
+.slides .slide-wrapper img.full-width {
+    width: 100%;
+}
+
+.slides .slide-wrapper img.width70pct {
+    width: 70%;
+}
+
+.slides .slide-wrapper li {
+    margin-bottom: 0;
+    min-height: 0;
+}
+
+.slides .slide-wrapper .video {
+    padding-left: 0;
+	margin: 0 auto;
+    text-align: center;
+    width: 35%;
+}
+
+.slides .slide-wrapper .attribution {
+    line-height: 1.4em;
+}
+
+.slides .research-innovation-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/yellow_arrow_small.png");
+}
+
+.slides .alumni-and-support-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/alumni_arrow_small.png");
+}
+
+.slides .recognition-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/recognition_arrow_small.png");
+}
+
+.slides .students-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/students_arrow_small.png");
+}
+
+.slides .faculty-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/orange_arrow_small.png");
+}
+
+footer .wrapper {
+    margin-left: 0;
+}
+
+.slides .slide-wrapper .caption {
+    color: #fff;
+    font-family: "HelveticaNeueW01-57Cn",Helvetica,sans-serif;
+    font-size: 1.1em;
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 215px;
+}
+
+}
+
+/*************************************************************************************************************************
+* LAYOUT #4 LAYOUT #4 LAYOUT #4 LAYOUT #4 LAYOUT #4 LAYOUT #4 LAYOUT #4 LAYOUT #4 *LAYOUT #4 LAYOUT #4 LAYOUT #4 LAYOUT #4 *
+*************************************************************************************************************************/ 
+
+
+/*      Mobile Layout: 320px.
+        Gutters: 24px.
+        Outer margins: 34px.
+        Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+    
+header {
+	height: 64px;
+}
+
+header .wrapper {
+	margin-left: 0;
+}
+
+#tagline {
+	clear: left;
+}
+
+#tagline img {
+	width: 50%;
+	max-height: 20px;
+	max-width: 167px;
+}
+
+.institutional {
+	bottom: 3px;
+	float: right;
+	font-size: 0.5em;
+	line-height: 0.8em;
+	padding: 2px;
+}
+
+#menu-button {
+	height: 45px;
+}
+
+.nav-btn {
+	background-color: #FFF;
+}
+
+#logo {
+	height: 23px;
+	padding: 12px 0 10px 10px;
+}
+
+footer .wrapper {
+	margin-left: 0;
+}
+
+.flex-viewport {
+	height: auto !important;
+	min-height: 600px !important;
+}
+
+.flex-direction-nav {
+	margin-left: 0;
+	top: 100px;
+	width: 100%;
+}
+
+.flex-direction-nav .flex-next, .flex-direction-nav .flex-prev {
+	background-size: 24px 23px;
+}
+
+.flex-direction-nav .flex-next {
+	right: 10px;
+}
+
+.flex-direction-nav li a {
+    height: 23px;
+	width: 24px;
+}
+
+.slides li {
+	background-image: none;
+}
+
+.slides .hide-bg-mobile {
+	background-image: none !important;
+}
+
+.slides .slide-wrapper .col2 .hide-mobile {
+	display: none;
+}
+
+.slides .slide-wrapper {
+	margin: 0 40px;
+}
+
+.slides .slide-wrapper h1.page-title.section-title, .slides .slide-wrapper h1.section-title {
+	color: #C00;
+	font-size: 200%;
+	margin: 20px auto;
+	text-align: left;
+}
+
+.slides .slide-wrapper h1.page-title {
+	font-size: 120%;
+	line-height: 1.0em;
+	margin: 20px 0;
+	padding: 4px 0 1px 2px;
+	width: 90%;	
+}
+
+.slides .slide-wrapper .overlay-text {
+	background-color: transparent;
+	float: left;
+	margin: 10px auto;
+	max-width: 440px;
+	padding: 0;
+	width: 87.5%;
+}
+
+.slides .slide-wrapper .overlay-text p {
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.slides .slide-wrapper p, .slides .slide-wrapper li {
+	font-size: 1.0em;
+	margin-left: 0;
+}
+
+.slides .slide-wrapper .smaller-font p, .slides .slide-wrapper .smaller-font li {
+    font-size: 0.8em;
+}
+
+
+.slides .slide-wrapper .body-text {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.slides .col2 {
+	clear: left;
+    height: auto;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.slides .col2left {
+    width: 100%;
+}
+
+.slides .slide-wrapper.strategy p, .slides .slide-wrapper.strategy li {
+	color: #333;
+}
+
+/* SLIDE STYLES: LISTS */
+
+.slides .research-innovation-section .slide-wrapper li {
+    list-style-image: none;
+	list-style-type: disc;
+	margin-left: 0;
+}
+
+.slides .alumni-and-support-section .slide-wrapper li {
+    list-style-image: none;
+	list-style-type: disc;
+	margin-left: 0;
+}
+
+.slides .recognition-section .slide-wrapper li {
+    list-style-image: none;
+	list-style-type: disc;
+	margin-left: 0;
+}
+
+.slides .students-section .slide-wrapper li {
+    list-style-image: none;
+	list-style-type: disc;
+	margin-left: 0;
+}
+
+.slides .faculty-section .slide-wrapper li {
+    list-style-image: none;
+	list-style-type: disc;
+	margin-left: 0;
+}
+
+.slides .slide-wrapper li {
+	list-style-image: none;
+	list-style-type: disc;
+	margin-left: 0;
+}
+
+/* SLIDES STYLES */
+
+.slides .col2 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.slides .slide-wrapper .col2 img {
+	display: block;
+	height: auto;
+	margin: 0 auto;
+	width: 70%;
+}
+
+.slides .slide-wrapper .stat {
+	font-size: 200%;
+	margin-bottom: -10px;
+}
+
+.slides .slide-wrapper .quote {
+	font-size: 120%;
+	margin-bottom: 0.5em;
+}
+
+.slides .slide-wrapper .attribution {
+	font-size: 110%;
+}
+
+.slides .bg-position-left-center, .slides .bg-position-left-bottom, .slides .bg-position-right-bottom, .slides .bg-position-right-center, .slides .bg-position-right-10pct, .slides .bg-position-center-bottom, .slides .bg-position-60pct-20px, .slides .bg-position-30pct-0, .slides .bg-position-80pct-bottom, .slides .bg-position-35pct-center, .slides .bg-position-80pct-center, .slides .bg-position-90pct-center, .slides .bg-position-90pct-bottom {
+    background-position: center center;
+}
+
+.slides .slide-wrapper .quote {
+	padding-left: 0;
+}
+
+.slides .slide-wrapper .attribution {
+	margin-bottom: 10px;
+	padding-left: 0;
+}
+
+.slides .slide-wrapper .video {
+	padding-left: 0;
+}
+
+.slides .slide-wrapper .video img {
+	height: auto;
+	width: 20%;
+}
+
+
+.slides .slide-wrapper .cutout {
+    bottom: auto;
+    position: relative;
+    right: auto;
+}
+
+.slides .col2.bottom-right {
+	bottom: auto;
+	margin: 0 auto;
+	right: auto;
+	width: 80%;
+}
+
+/* HOME SECTION STYLES */
+
+.slides .strategy h1.page-title {
+	width: 250px;
+}
+	
+.slides .slide-wrapper.strategy p, .slides .slide-wrapper.strategy li {
+	font-size: 1.0em;
+	line-height: 1.2em;
+	margin-left: 0;
+}
+
+.slides .slide-wrapper.strategy img {
+	margin-left: 0;
+	max-width: 174px;
+}
+
+/* STUDENTS SECTION STYLES */
+
+.slides .students-section .slide-wrapper .overlay-text {
+    background-color: transparent;
+}
+
+.slides .students-section .slide-wrapper h1.page-title.section-title {
+	color: #BBD649;
+}
+
+.slides .real-world h1.page-title {
+	width: 252px;
+}
+
+.slides .strength-in-our-numbers h1.page-title {
+	width: 244px;
+}
+
+.slides .wider-reach h1.page-title {
+	width: 141px;
+}
+
+.slides .a-campus-thats-all-in h1.page-title {
+	width: 238px;
+}
+
+.slides .results-oriented h1.page-title {
+	width: 196px;
+}
+
+/* FACULTY SECTION STYLES */
+
+.slides .faculty-section .slide-wrapper .overlay-text {
+    background-color: transparent;
+}
+
+.slides .faculty-section .slide-wrapper h1.page-title.section-title {
+	color: #fcb116;
+}
+
+/* RESEARCH AND INNOVATION SECTION STYLES */
+
+.slides .research-innovation-section .slide-wrapper .overlay-text {
+    background-color: transparent;
+}
+
+.slides .research-innovation-section .slide-wrapper h1.page-title.section-title {
+	color: #dde159;
+}
+
+/* ALUMNI AND SUPPORT SECTION STYLES */
+
+.slides .alumni-and-support-section .slide-wrapper .overlay-text {
+    background-color: transparent;
+}
+
+.slides .alumni-and-support-section .slide-wrapper h1.page-title.section-title {
+	color: #7ccace;
+}
+
+/* RECOGNITION SECTION STYLES */
+
+.slides .recognition-section .slide-wrapper .overlay-text {
+    background-color: transparent;
+}
+
+.slides .recognition-section .slide-wrapper h1.page-title.section-title {
+	color: #89a7cd;
+}
+
+}
+
+/*************************************************************************************************************************
+* LAYOUT #3 LAYOUT #3 LAYOUT #3 LAYOUT #3 LAYOUT #3 LAYOUT #3 LAYOUT #3 LAYOUT #3 LAYOUT #3 LAYOUT #3 LAYOUT #3 *
+*************************************************************************************************************************/ 
+
+/*      Wide Mobile Layout: 480px.
+        Gutters: 24px.
+        Outer margins: 22px.
+        Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+header {
+	height: 87px;
+}
+
+#menu-button {
+	padding: 6px 0;
+}
+
+#logo {
+	height: 38px;
+	padding: 10px 0 10px 10px;
+	width: 400px;
+}
+
+.logo {
+	height: 38px;
+	width: 400px;
+}
+
+#tagline img {
+    max-height: 29px;
+    max-width: 240px;
+}
+
+.institutional {
+    font-size: 0.7em;
+    padding: 4px 2px 2px 3px;
+}
+
+footer .wrapper {
+	margin: 0;
+}
+
+}
+
+/* LAPTOP STYLES */
+@media only screen and (min-width: 1025px) and (max-height: 850px) {
+
+#empower-tab img {
+	height: 24px;
+	width: auto;
+}
+
+#menu-button {
+	padding-top: 12px;
+}
+
+#logo {
+    height: 38px;
+    padding: 18px 0 15px;
+}
+
+.logo {
+    height: 38px;
+    width: 400px;
+}
+
+.nav-search {
+	top: 28px;
+}
+
+#tagline img {
+    max-height: 40px;
+}
+
+.institutional {
+    bottom: 5px;
+    font-size: 1em;
+    line-height: 0.8em;
+    padding: 3px;
+}
+
+#nav {
+	top: 135px;
+}
+	
+.slides .slide-wrapper h1.page-title {
+	margin-top: 20px;
+	padding: 3px 5px;
+}
+
+.slides .slide-wrapper .stat {
+	font-size: 500%;
+	margin-bottom: -15px;
+}
+
+.flex-viewport {
+	height: 670px; /* was 481px */
+}
+
+.slides .slide-wrapper h1.page-title.section-title, .slides .slide-wrapper h1.section-title {
+	font-size: 900%;
+}
+
+.slides .slide-wrapper p, .slides .slide-wrapper li {
+	font-size: 1.4em;
+}
+
+.slides .slide-wrapper .stat {
+	font-size: 700%;
+}
+
+.slides .slide-wrapper .quote {
+	line-height: 1.2em;
+}
+
+.slides .col2.bottom-right {
+	bottom: 77px;
+}
+
+.slides .slide-wrapper .smaller-font p, .slides .slide-wrapper .smaller-font li,
+.slides .slide-wrapper .smaller-font-laptop p, .slides .slide-wrapper .smaller-font-laptop li {
+    font-size: 1.1em;
+}
+
+.slides .slide-wrapper .width70pct {
+    width: 50%;
+}
+
+.slides .slide-wrapper .width80pct-landscape {
+    width: 90%;
+}
+
+
+.slides .col2.bottom-right {
+
+}
+	
+
+
+/* HOME SECTION STYLES */
+
+
+.slides .slide-wrapper.strategy p, .slides .slide-wrapper.strategy li {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	margin-left: 0;
+}
+
+.slides .alumni-and-support-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/alumni_arrow_small.png");
+}
+
+}
+
+/* EXTREMELY WIDE AND SHORT DESKTOP SCREEN STYLES */
+@media only screen and (min-width: 1800px) and (max-height: 850px) {
+	
+.slides .slide-wrapper .cutout {
+    max-height: 500px;
+    right: 25%;
+    width: auto;
+}
+
+.slides .slide-wrapper .width80pct-landscape {
+    max-height: 400px;
+	width: auto;
+}
+
+.slides .slide-wrapper .width70pct {
+    max-height: 400px;
+	width: auto;
+}
+
+}
+
+/* IPAD PORTRAIT STYLES */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	
+.flex-viewport {
+	height: 635px;
+}
+
+.slides .col2.bottom-right {
+    bottom: 86px;
+}
+	
+}
+
+/* IPAD LANDSCAPE STYLES */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	
+/* Need the following styles because of bug described here http://krpano.com/ios/bugs/ios7-ipad-landscape/ and here http://stackoverflow.com/questions/19012135/ios-7-ipad-safari-landscape-innerheight-outerheight-layout-issue.
+If below heights are 100%, iOS Safari adds white space under the footer in landscape mode.*/
+html {
+	height: 100%;
+	position: fixed;
+	width: 100%;
+}
+
+#empower-tab img {
+	height: 24px;
+	width: auto;
+}
+
+#menu-button {
+	padding-top: 12px;
+}
+
+#logo {
+    height: 38px;
+    padding: 18px 0 15px;
+}
+
+.logo {
+    height: 38px;
+    width: 400px;
+}
+
+.nav-search {
+	top: 28px;
+}
+
+#tagline img {
+    max-height: 40px;
+}
+
+.institutional {
+    bottom: 5px;
+    font-size: 1em;
+    line-height: 0.8em;
+    padding: 3px;
+}
+	
+.flex-viewport {
+	height: 481px;
+}
+
+.slides .slide-wrapper h1.page-title {
+	margin-top: 20px;
+	padding: 3px 5px;
+}
+
+.slides .slide-wrapper .stat {
+	font-size: 500%;
+	margin-bottom: -15px;
+}
+
+.slides .slide-wrapper .caption {
+	width: 315px;
+}
+
+.slides .slide-wrapper img.width70pct {
+	width: 50%;
+}
+
+.slides .slide-wrapper img.width80pct-landscape {
+	width: 80%;
+}
+
+.slides .slide-wrapper img.max-width184px {
+	max-height: 310px;
+	width: auto;
+}
+
+.slides .col2.bottom-right {
+    bottom: 72px;
+}
+
+.slides .students-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/students_arrow_small.png");
+}
+
+.slides .faculty-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/orange_arrow_small.png");
+}
+
+.slides .research-and-innovation-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/yellow_arrow_small.png");
+}
+
+.slides .alumni-and-support-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/alumni_arrow_small.png");
+}
+
+.slides .recognition-section .slide-wrapper li {
+    list-style-image: url("../images/arrows/recognition_arrow_small.png");
+}
+	
+}
